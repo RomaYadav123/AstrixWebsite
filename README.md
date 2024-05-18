@@ -1,2 +1,2 @@
-# astrixWebsite
-astrixWebsite
+# astrix-website
+astrix-website
