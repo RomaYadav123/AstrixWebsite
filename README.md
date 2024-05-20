@@ -69,5 +69,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Project Deployed on Vercel: astrix-website-hbw10u0o1-romayadav123s-projects.vercel.app
+### Project Deployed on Vercel: [Astrix Website](astrix-website-kbs92744g-romayadav123s-projects.vercel.app)
 
