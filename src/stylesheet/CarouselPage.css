@@ -1,0 +1,9 @@
+.caro-img {
+  height: 500px;
+  object-fit: cover;
+  /* background-size: cover; */
+}
+
+.c-width {
+  width: 30%;
+}

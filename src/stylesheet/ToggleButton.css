@@ -1,0 +1,88 @@
+.toggle-box {
+  border: 5px solid #282b30;
+  /* border: 5px solid yellow; */
+  padding: 8px 24px;
+  background-color: #484e56;
+  color: #fff;
+  font-size: 18px;
+  width: 60%;
+  border-radius: 32px;
+  margin-top: -155px;
+
+  /* Shadow effect (inner and outer) */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+  /* Optional glow effect (using animation) */
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 0 rgba(0, 255, 255, 0.2);
+  }
+  to {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+}
+
+/* Tablet media query */
+
+@media only screen and (min-device-width: 600px) {
+  .toggle-box {
+    border: 5px solid #282b30;
+    /* border: 5px solid yellow; */
+
+    padding: 8px 24px;
+    background-color: #484e56;
+    color: #fff;
+    font-size: 18px;
+    width: 30%;
+    border-radius: 32px;
+    margin-top: -385px;
+
+    /* Shadow effect (inner and outer) */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    /* Optional glow effect (using animation) */
+    animation: glow 1.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 0 rgba(0, 255, 255, 0.2);
+    }
+    to {
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    }
+  }
+}
+
+/* Website media query */
+
+@media only screen and (min-device-width: 1028px) {
+  .toggle-box {
+    border: 5px solid #282b30;
+    padding: 8px 24px;
+    background-color: #484e56;
+    color: #fff;
+    font-size: 18px;
+    width: 18%;
+    border-radius: 32px;
+    margin-top: -75px;
+
+    /* Shadow effect (inner and outer) */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    /* Optional glow effect (using animation) */
+    animation: glow 1.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 0 rgba(0, 255, 255, 0.2);
+    }
+    to {
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    }
+  }
+}

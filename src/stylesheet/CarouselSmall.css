@@ -1,0 +1,21 @@
+.parent-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid yellowgreen; */
+}
+
+.carousel-parent {
+  width: 100%;
+  /* border: 5px solid deeppink; */
+}
+
+.small-img {
+  height: 140px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-parent .carousel.slide > .carousel-inner {
+  padding: 0px;
+}

@@ -1,0 +1,153 @@
+.s-parent {
+  background-color: #15181b;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.logo-title {
+  color: orange;
+}
+.header-parent {
+  display: grid;
+  grid-template-columns: 10fr 1fr 5fr;
+  height: 100%;
+  padding: 0px;
+  /* border: 5px solid yellowgreen; */
+}
+.section-one {
+  /* height: "100%"; */
+  /* border: 5px solid red; */
+}
+.section-last {
+  /* border: 5px solid darkorchid; */
+  text-align: start;
+  padding: 22px;
+}
+
+.header-child {
+  display: flex;
+  align-items: left;
+  padding: 22px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.section-two {
+  /* border: 5px solid yellow; */
+  background-color: #b9a0ff;
+  position: relative;
+  /* display: block; */
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+.body {
+  /* border: 5px solid yellow; */
+  margin: 50px;
+  width: 50%;
+  height: 100%;
+}
+
+.side-section {
+  /* border: 5px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.last-sec {
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45px 0px;
+}
+
+.scanner-img {
+  margin-top: 48px;
+}
+
+.cta-wait {
+  width: 50%;
+  border-radius: 28px !important;
+  font-weight: 600 !important;
+}
+/* animation */
+
+#scroll-container {
+  /* border: 3px solid black;
+  border-radius: 5px;
+  height: 100px;
+  overflow: hidden; */
+}
+
+#scroll-text {
+  height: 100%;
+  text-align: center;
+
+  /* animation properties */
+  -moz-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+
+  -moz-animation: my-animation 10s linear infinite;
+  -webkit-animation: my-animation 10s linear infinite;
+  animation: my-animation 10s linear infinite;
+}
+
+.rotate-me {
+  /* rotate: 90deg; */
+  height: 500 !important;
+  /* border: 5px solid orange; */
+  font-weight: 600;
+  word-break: break-all;
+  
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateY(-100%);
+  }
+  to {
+    -moz-transform: translateY(100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateY(-100%);
+  }
+  to {
+    -webkit-transform: translateY(100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  to {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+}

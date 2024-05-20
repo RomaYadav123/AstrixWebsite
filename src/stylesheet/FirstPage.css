@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.a-parent {
+  background-color: #fff4df;
+  height: 100vh;
+  
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 32px;
+}
+
+/* Tablet media query */
+
+@media only screen and (min-device-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+  
+  .a-parent {
+    background-color: #fff4df;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 32px;
+  }
+  
+}
+
+
+/* Website media query */
+
+@media only screen and (min-device-width: 1028px) {
+  * {
+    box-sizing: border-box;
+  }
+  
+  .a-parent {
+    background-color: #fff4df;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 32px;
+  }
+  
+}
