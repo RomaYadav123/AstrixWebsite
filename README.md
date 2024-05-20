@@ -71,3 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Project Deployed on Vercel: [Astrix Website](astrix-website-kbs92744g-romayadav123s-projects.vercel.app)
 
+### Link to Vercel : (astrix-website-kbs92744g-romayadav123s-projects.vercel.app)
+
